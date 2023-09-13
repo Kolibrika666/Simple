@@ -1,0 +1,52 @@
+
+
+
+header, nav{
+    justify-content: space-between;
+    display: inline-flex;
+}
+
+header{
+    background-color: thistle;
+    padding:  1%;
+    width: 100%;
+    
+}
+.logo{
+    background-color: aqua;
+    display: inline-flex;
+}
+
+nav{
+    background-color: aquamarine;
+    width: 674px;
+    
+}
+
+.ellipse, .rounded_rectangle{
+    height: 17px;
+    border: 1px solid #333;
+    margin:  0 5px;
+}
+
+.ellipse{
+    width: 17px;
+    border-radius: 200px;
+}
+
+.rounded_rectangle{
+    width: 32px;
+    border-radius: 70px;
+}
+
+.logo > span{
+    color: #333;
+    font-family: 'Ubuntu';
+    font-weight: 300;
+    font-size: 20px;
+}
+
+nav > button{
+    color: transparent;
+    border: none;
+}

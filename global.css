@@ -1,0 +1,53 @@
+/* шрифт робото */
+
+/* шрифт убунту */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+    font-family: 'Roboto';
+    font-style: normal;
+    color: #85859B;
+    font-weight: 400;
+    line-height: 170%;
+    font-size: 18px;
+}
+
+button, h3, .logo > span, nav > button {
+    line-height: normal; 
+}
+
+h1, nav > button{
+    color: #4C5866;
+
+    /* Почему на кнопках нет цвета? */
+}
+
+h2, h3{
+    color: #666;
+}
+
+h1, h2{
+    line-height: 100%; 
+}
+
+h1{
+    font-size: 60px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+button{
+    border: none;
+    background-color: transparent;
+    color: #7875FE;
+    border: 1px solid #7875FE;
+    font-size: 20px;
+}
