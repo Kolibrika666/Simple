@@ -13,7 +13,7 @@
 <p>В основе проекта лежит готовый макет, выполненный в облачном инструменте для проектирования и прототипирования Figma.
 <li>[Попробовать Figma]
 <br>(https://www.figma.com)
-<li>[Макет проекта]<br>(https://www.figma.com/file/5xlEZGyyfB9oGZHuaNWPNS/St.Proj.-1%2F3?node-id=0%3A1&mode=devэ ) 
+<li>[Макет проекта]<br>(https://www.figma.com/file/5xlEZGyyfB9oGZHuaNWPNS/St.Proj.-1%2F3?node-id=0%3A1&mode=devэ) 
 
 <h3>Технологии</h3> 
 <p>В данном проекте используются структурные элементы языка разментки HTML и применения таблиц стилей CSS. Адаптивность сайта обеспечивается при помощи media-запросов.
