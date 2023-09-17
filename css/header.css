@@ -1,147 +1,118 @@
 
-
-                                                            /* это самый маленький экран */
-/* header{
-    width:100vw;
-    flex-direction: column;
-}
-
-.logo{
-    align-items: first baseline;
-    padding: 10px ;
-    font-family: 'Roboto';
-}
-.header_smoll_nav{
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 10px 0 10px;
-}
-.header_smoll_nav, .logo, header{
-    display: flex;
-}
-
-.logo, header{
-    justify-content: center;
-} */
-
-                                                                  /* это средний экран */
-
- /* .header_smoll_nav_list, header_nav_search{
-    display: none;
-}
-
- header{
-    
-    width:90%;
-    flex-direction: column;
-} 
-
-.logo{
-    align-items: first baseline;
-    padding: 10px;
-}
-.header_smoll_nav{
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 10px 0 10px;
-}
-.header_smoll_nav, .logo, header, nav, .header_normal{
-    display: flex;
-}
-
-.logo, header{
-    justify-content: center;
-}
-
-nav, .header_normal {
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 10px
-
-} */ 
-
+@media (min-width: 200px) {
   
-                                                                        /* это большой экран  */
-
-/* .header_line_one, .header_line_two, .header_smoll_nav{
-   display: none;
-   }
-
-   header{
-    width:90%;
-    display: flex;
-    background-color: aqua;
-    flex-direction:row;
-    align-items:center ;
-    justify-content:space-between;
+    header{
+ 
+        flex-direction: column;
     }
 
     .logo{
         align-items: first baseline;
-        padding: 10px;
+        padding: 10px ;
     }
 
-    nav, .logo{
-        display:inline-flex;
+    .header_smoll_nav, .logo, header{
+        display: flex;
     }
-    
-    nav {
-        display: inline-flex;
-        align-items: flex-start;
-        gap: 60px;
-        padding: 10px;
-    }  */
 
-    
+    .header_smoll_nav{
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 10px 0 10px;
+    }
+    .logo, header{
+        justify-content: center;
+    }
 
-
-/* 
-
-nav, .logo{
-    display:inline-flex;
+    nav, .header_line_three {
+        display: none;
+    }
 }
 
+@media (min-width: 455px) {
 
-
-nav{
-    display:inline-flex;
-    background-color: rgb(227, 183, 227);
-    align-items: center;
-    justify-content: space-between;
+    .header_smoll_nav_list, header_nav_search{
+        display: none;
+    }
     
-} */ 
+     header{
+        flex-direction: column;
+    } 
+    
+    .logo{
+        align-items: first baseline;
+        padding: 10px;
+    }
+    .header_smoll_nav{
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 10px 0 10px;
+    }
+    .header_smoll_nav, .logo, header, nav, .header_normal{
+        display: flex;
+    }
+    
+    .logo, header{
+        justify-content: center;
+    }
+    
+    nav, .header_normal {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 10px
+    
+    }
 
-/* 
-.logo{
-    display:inline-flex;
-    background-color: aquamarine;
-    justify-content: start;
-    align-items: center;
-} */
+    .header_nav_search,.header_line_one{
+        display: none;
+    }
 
+    .header_line_three{
+        display: inline;
+    }
 
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                                              /* Это стили фигур  */
+@media (min-width: 850px) { 
+    .header_line_one, .header_line_two, .header_smoll_nav{
+        display: none;
+        }
+     
+        header{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: baseline;
+       
+         }
+     
+         .logo{
+             align-items: first baseline;
+             padding: 10px;
+         }
+     
+         nav, .logo{
+             display:flex;
+         }
+         
+         nav {
+             display: flex;
+             align-items: flex-start;
+             gap: 60px;
+             padding: 10px;
+         }  
+         .logo{
+            display:inline-flex;
+            justify-content: start;
+            align-items: center;
+        }
+        }
+header{
+            width: 100vw;
+            padding: 0 20px;
+         }
 
 .header_line_one, .header_line_two, .header_line_three{
     border-bottom: 1px solid  #C0C0C0;
