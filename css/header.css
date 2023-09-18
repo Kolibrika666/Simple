@@ -30,7 +30,7 @@
     }
 }
 
-@media (min-width: 455px) {
+@media (min-width: 350px) {
 
     .header_smoll_nav_list, header_nav_search{
         display: none;
