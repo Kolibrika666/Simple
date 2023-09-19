@@ -1,0 +1,25 @@
+
+
+.banner{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    background-color: rgb(168, 168, 192);
+    
+}
+
+.banner > article{
+    display: inline;
+    background-color: cadetblue;
+
+}
+
+.banner > .button{
+    width: 255px;
+    height: 70px;
+}
+
+
+.banner_img{
+  width: 200px;
+}
