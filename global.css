@@ -1,9 +1,16 @@
-/* шрифт робото */
+
 
 @font-face {
     font-family: 'Ubuntu';
     src: url(fonts/Ubuntu-Regular.ttf);
 }
+
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Ubuntu-Regular.ttf);
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -50,9 +57,6 @@ h1, h2{
     line-height: 100%; 
 }
 
-h1{
-    font-size: 60px;
-}
 
 h2{
     font-size: 40px;
