@@ -1,0 +1,32 @@
+.whiteness{
+    background-color: antiquewhite;
+    padding: 90px 50px;
+}
+
+
+
+
+
+.whiteness_rezult{
+    background-color: aquamarine;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    column-gap: 30px;
+    display: grid;
+}
+
+
+
+
+.whiteness_max_white{
+    background-color: coral;
+    margin-top: 59px ;
+    display: flex;
+    gap: 30px;
+    /* flex-wrap: wrap; media */
+   
+}
+
+
+.whiteness > p{
+    max-width: 500px;
+}

@@ -21,7 +21,7 @@
 }
 
 
-@media (min-width: 844px){
+@media (min-width: 537px){
     
     h1{
         font-size: 38px;
@@ -29,6 +29,7 @@
     .banner > article{
         font-size: 16px;
         row-gap: 20px;
+  
     }
     .banner_button{
         width: 196px;
@@ -37,6 +38,7 @@
 
     .banner_img{
         display: block;
+        width: 195px;
     }
 
     .banner{
@@ -67,12 +69,13 @@
 
     .banner{
         grid-template-columns: 1fr 1fr;
+        padding: 5%;
     }
 }
 
 .banner{
     display: grid;
-    width: 100vw;
+    max-width: 1440px;
 }
 
 .banner > article{
