@@ -34,6 +34,9 @@ body{
 }
 main{
     max-width: 1440px;
+    display: grid;
+    grid-column: 1fr;
+    position: relative;
 }
 
 .header_line, .header_line_two, .whiteness_rezult_line_three, .whiteness_rezult_line_two, .whiteness_rezult_line_one{

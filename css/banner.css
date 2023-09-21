@@ -17,10 +17,10 @@
 
     .banner{
         grid-template-columns: 1fr;
-    }
+        grid-template-rows: 400px;
 }
 
-
+}
 @media (min-width: 537px){
     
     h1{
@@ -43,9 +43,10 @@
 
     .banner{
         grid-template-columns: 1fr 1fr;
-    }
+        grid-template-rows: 600px;
+        
 }
-
+}
 
 
 @media (min-width: 1082px){
@@ -70,6 +71,7 @@
     .banner{
         grid-template-columns: 1fr 1fr;
         padding: 5%;
+        grid-template-rows: 600px;
     }
 }
 
@@ -77,6 +79,9 @@
     display: grid;
     max-width: 1440px;
     position: relative;
+    
+    position: relative;
+    z-index: 0;
 }
 
 .banner > article{
@@ -96,8 +101,9 @@
 }
 
 .banner_img{
-    position: relative;
+   
     width: 100%;
     object-fit: cover;
+    
+    
 }
-
