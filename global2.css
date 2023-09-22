@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'Ubuntu';
+    src: url(fonts/Ubuntu-Regular.ttf);
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Ubuntu-Regular.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+body{
+    /* font */
+    font-family: 'Roboto';
+    font-style: normal;
+    color: #85859B;
+    font-weight: 400;
+    line-height: 170%;
+    font-size: 18px;
+
+
+    background-color: aquamarine;
+}
+
+/* maket */
+body, main{
+    display: flex;
+    justify-content: center;
+    z-index: 4;
+}
+main{
+    position: relative;
+    flex-wrap: nowrap;
+	flex-direction: column;
+
+    background-color: antiquewhite;
+}
+main, main > * {
+    max-width: 1440px;
+}
+/* layot */
+
+header, .whiteless, .goods, .brand, .sketch {
+    position: relative;
+    z-index: 2;
+
+    background-color: forestgreen;
+ }
+
+.banner {
+    position: relative;
+    z-index: 3;
+
+    background-color: blue;
+
+ }
+
+footer{
+    position: relative;
+    z-index: 1;
+
+
+    background-color: blueviolet;
+ }

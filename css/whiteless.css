@@ -98,6 +98,7 @@
     display: grid;
     grid-template-rows: max-content max-content;
     z-index: 0;
+
 }
 
 .whiteness_rezult{
