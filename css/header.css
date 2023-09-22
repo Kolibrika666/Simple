@@ -167,36 +167,13 @@ header{
     display: inline-flex;
 }
 
-.logo{
-    gap: 3px;
-}
+
 
 
 .header_line, .header_line_two{
     width: 100vw ;
    }
 
-.logo_ellipse, .logo_rounded_rectangle{
-    height: 17px;
-    border: 1px solid #333;
-}
-
-.logo_ellipse{
-    width: 17px;
-    border-radius: 200px;
-}
-
-.logo_rounded_rectangle{
-    width: 32px;
-    border-radius: 70px;
-}
-
-.logo > span{
-    color: #333;
-    font-family: 'Ubuntu';
-    font-weight: 300;
-    font-size: 20px;
-}
 
 nav > button{
     color: transparent;

@@ -14,6 +14,8 @@
 }
 
 body{
+    position: relative;
+    z-index: 0;
     /* font */
     font-family: 'Roboto';
     font-style: normal;
@@ -30,30 +32,34 @@ body{
 body, main{
     display: flex;
     justify-content: center;
-    z-index: 4;
+    
 }
 main{
     position: relative;
+    z-index: 1;
     flex-wrap: nowrap;
 	flex-direction: column;
-
-    background-color: antiquewhite;
+    background-color: rgb(74, 54, 28);
 }
-main, main > * {
+ main > * {
     max-width: 1440px;
+}
+
+section{
+    padding: 5.5%;
 }
 /* layot */
 
 header, .whiteless, .goods, .brand, .sketch {
     position: relative;
-    z-index: 2;
-
+    z-index: 3;
     background-color: forestgreen;
  }
 
 .banner {
     position: relative;
-    z-index: 3;
+    z-index: 2;
+    width: 100%;
 
     background-color: blue;
 
@@ -61,8 +67,71 @@ header, .whiteless, .goods, .brand, .sketch {
 
 footer{
     position: relative;
-    z-index: 1;
+    z-index: 4;
+
+    
+    
 
 
     background-color: blueviolet;
  }
+
+
+
+/* figure */
+.line {
+        border-bottom: 1px solid  #C0C0C0;
+}
+button{
+    border: none;
+    background-color: transparent;
+    color: #7875FE;
+    border: 1px solid #7875FE;
+    font-size: 20px;
+}
+
+/* logo */
+.logo_ellipse, .logo_rounded_rectangle{
+    height: 17px;
+    border: 1px solid #333;
+    margin: 3px ;
+}
+.logo_ellipse{
+    width: 17px;
+    border-radius: 200px;
+}
+.logo_rounded_rectangle{
+    width: 30px;
+    border-radius: 70px;
+}
+.logo > span{
+    color: #333;
+    font-family: 'Ubuntu';
+    font-weight: 300;
+    font-size: 20px;
+}
+.logo{
+    background-color:rgb(255, 255, 255) ;
+    align-items: end;
+    display: inline-flex;
+    
+}
+/* text-style */
+button, h3, .logo > span, nav > button {
+    line-height: normal; 
+}
+h1, nav > button{
+    color: #4C5866;
+}
+h2, h3{
+    color: #666;
+}
+h1, h2{
+    line-height: 100%; 
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
+}
