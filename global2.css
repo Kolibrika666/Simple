@@ -41,7 +41,6 @@ main{
     display: grid;
     grid-template-columns: 1fr;
     background-color: rgb(74, 54, 28);
-    max-width: 100%;
     margin: auto;
 
 }
