@@ -23,16 +23,13 @@ body{
     font-weight: 400;
     line-height: 170%;
     font-size: 18px;
-
-
-    background-color: aquamarine;
+    background-color: white;
 }
 
 /* maket */
 body, main{
     display: flex;
     justify-content: center;
-    
 }
 main{
     position: relative;
@@ -44,40 +41,32 @@ main{
  main > * {
     max-width: 1440px;
 }
-
 section{
     padding: 5.5%;
+}
+/*background*/
+header,  .goods, .brand, .sketch, .banner{
+    background-color: white;
+}
+.whiteless, .brand{
+    background-color: #EBEBEB;
 }
 /* layot */
 
 header, .whiteless, .goods, .brand, .sketch {
     position: relative;
     z-index: 3;
-    background-color: forestgreen;
- }
-
+}
 .banner {
     position: relative;
     z-index: 2;
     width: 100%;
-
-    background-color: blue;
-
  }
-
 footer{
     position: relative;
     z-index: 4;
-
-    
-    
-
-
-    background-color: blueviolet;
+    background-color: #4C5866;
  }
-
-
-
 /* figure */
 .line {
         border-bottom: 1px solid  #C0C0C0;
@@ -89,7 +78,6 @@ button{
     border: 1px solid #7875FE;
     font-size: 20px;
 }
-
 /* logo */
 .logo_ellipse, .logo_rounded_rectangle{
     height: 17px;
