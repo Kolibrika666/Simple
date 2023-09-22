@@ -25,8 +25,15 @@ body{
     font-size: 18px;
     background-color: white;
 }
+button{
+    border: none;
+    background-color: transparent;
+    color: #7875FE;
+    border: 1px solid #7875FE;
+    font-size: 20px;
+}
 
-/* maket */
+/* model */
 body, main{
     display: flex;
     justify-content: center;
@@ -51,7 +58,7 @@ header,  .goods, .brand, .sketch, .banner{
 .whiteless, .brand{
     background-color: #EBEBEB;
 }
-/* layot */
+/* layout */
 
 header, .whiteless, .goods, .brand, .sketch {
     position: relative;
@@ -67,21 +74,11 @@ footer{
     z-index: 4;
     background-color: #4C5866;
  }
-/* figure */
-.line {
-        border-bottom: 1px solid  #C0C0C0;
-}
-button{
-    border: none;
-    background-color: transparent;
-    color: #7875FE;
-    border: 1px solid #7875FE;
-    font-size: 20px;
-}
+
+
 /* logo */
 .logo_ellipse, .logo_rounded_rectangle{
     height: 17px;
-    border: 1px solid #333;
     margin: 3px ;
 }
 .logo_ellipse{
@@ -92,17 +89,28 @@ button{
     width: 30px;
     border-radius: 70px;
 }
-.logo > span{
-    color: #333;
+.logo{
+    align-items: end;
+    display: inline-flex;
     font-family: 'Ubuntu';
     font-weight: 300;
     font-size: 20px;
 }
-.logo{
-    background-color:rgb(255, 255, 255) ;
-    align-items: end;
-    display: inline-flex;
-    
+/* color elements */
+.gray_text_color{
+    color: #333;
+}
+.white_text_color{
+    color:white;
+}
+.white_border{
+    border: 1px solid white;
+}
+.gray_border{
+    border: 1px solid #333;
+}
+.beige_border{
+    border-bottom: 1px solid  #C0C0C0;
 }
 /* text-style */
 button, h3, .logo > span, nav > button {
