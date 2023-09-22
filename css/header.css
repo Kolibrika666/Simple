@@ -1,4 +1,38 @@
+
 @media (min-width:200px) {
+    
+}
+
+@media (min-width:500px) {
+    
+}
+
+@media (min-width:1000px) {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media (min-width:200px) {
     header{
         grid-template-columns: max-content max-content;
         grid-template-rows: repeat (4,max-content);
@@ -183,4 +217,4 @@ nav > button{
 
 
 
-
+ */

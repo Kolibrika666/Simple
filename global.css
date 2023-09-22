@@ -1,16 +1,12 @@
 
-
 @font-face {
     font-family: 'Ubuntu';
     src: url(fonts/Ubuntu-Regular.ttf);
 }
-
-
 @font-face {
     font-family: 'Roboto';
     src: url(fonts/Ubuntu-Regular.ttf);
 }
-
 *{
     padding: 0;
     margin: 0;
@@ -21,7 +17,6 @@
     font-weight: 400;
     line-height: 170%;
     font-size: 18px;
-    
 }
 
 body{
@@ -33,7 +28,6 @@ body{
     width: 100vw;
 }
 main{
-    max-width: 1440px;
     display: grid;
     grid-column: 1fr;
     position: relative;
