@@ -121,12 +121,9 @@
 
 header{
     display: grid;
-    align-content: center;
-    justify-content: center;
 }
 .nav_search{
     gap: 30px;
-
 }
 .logo, .nav_search{
     align-items: center;

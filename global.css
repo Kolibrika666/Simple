@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: 'Ubuntu';
     src: url(fonts/Ubuntu-Regular.ttf);
@@ -11,37 +10,103 @@
     padding: 0;
     margin: 0;
     box-sizing: content-box;
+}
+
+body{
+    position: relative;
+    z-index: 0;
+    /* font */
     font-family: 'Roboto';
     font-style: normal;
     color: #85859B;
     font-weight: 400;
     line-height: 170%;
     font-size: 18px;
+    background-color: white;
+    grid-template-columns: 1fr;
+   
 }
+button{
+    border: none;
+    background-color: transparent;
+    color: #7875FE;
+    border: 1px solid #7875FE;
+    font-size: 20px;
+}
+/* model */
 
-body{
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-    justify-content: center;
-    color:white ;
-    width: 100vw;
-}
 main{
-    display: grid;
-    grid-column: 1fr;
     position: relative;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto;
 }
-
-.header_line, .header_line_two, .whiteness_rezult_line_three, .whiteness_rezult_line_two, .whiteness_rezult_line_one{
+body > * {
+    max-width:1440px;
+}
+.banner, .whiteless, .goods, .brand, .sketch{
+    padding: 11%;
+ }
+/*background*/
+header,  .goods, .brand, .sketch, .banner{
+    background-color: white;
+}
+.whiteless, .brand, data{
+    background-color: #EBEBEB;
+}
+/* logo */
+.logo_ellipse, .logo_rounded_rectangle{
+    height: 17px;
+    margin: 3px ;
+}
+.logo_ellipse{
+    width: 17px;
+    border-radius: 200px;
+}
+.logo_rounded_rectangle{
+    width: 30px;
+    border-radius: 70px;
+}
+.logo{
+    align-items: end;
+    display: inline-flex;
+    font-family: 'Ubuntu';
+    font-weight: 300;
+    font-size: 20px;
+}
+/* color elements */
+.gray_text_color{
+    color: #333;
+}
+.white_text_color{
+    color:white;
+}
+.white_border{
+    border: 1px solid white;
+}
+.gray_border{
+    border: 1px solid #333;
+}
+.beige_border{
     border-bottom: 1px solid  #C0C0C0;
-   }
-
-
-
-
-
-
-
-
-
+}
+/* text-style */
+button, h3, .logo > span, nav > button {
+    line-height: normal; 
+}
+h1, nav > button{
+    color: #4C5866;
+}
+h2, h3{
+    color: #666;
+}
+h1, h2{
+    line-height: 100%; 
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
+}
