@@ -1,38 +1,24 @@
 
-
 @media (min-width:200px) {
-
     .whiteness_rezult_article{
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
     .whiteness_rezult{
         grid-template-columns: 1fr;
+        gap: 20px;
     }
     .whiteness_max_white{
         grid-template-columns: 1fr ;
-       
     }
-
     .whiteness_max_white_text > h2{
         font-size: 24px;
     }
-
-    .whiteness_max_white_text > p{
+    .whiteness_max_white_text{
         font-size: 16px;
     }
-
-
-    
 }
-
-
-
 @media (min-width:600px) {
-
-    .whiteness{
-        top: -600px;
-    }
     .whiteness_rezult_article{
         display: grid;
         grid-template-columns: 1fr;
@@ -42,70 +28,44 @@
     }
     .whiteness_max_white{
         grid-template-columns: 1fr ;
-       
     }
     .whiteness_max_white_text > h2{
         font-size: 30px;
     }
-
     .whiteness_max_white_text > h2{
         font-size: 24px;
     }
-    .whiteness_max_white_text > p{
+    .whiteness_max_white_text{
         font-size: 16px;
     }
-
-
-    
 }
-
 @media (min-width:1000px) {
-
-    .whiteness{
-        top: -700px;
-    }
     .whiteness_rezult_article{
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-
     .whiteness_rezult{
         grid-template-columns: repeat(3 , minmax(130px,320px));
     }
-
     .whiteness_max_white{
         grid-template-columns: 60% 40% ;
-       
     }
     .whiteness_max_white_text > h2{
         font-size: 30px;
     }
-    .whiteness_max_white_text > p{
+    .whiteness_max_white_text {
         font-size: 18px;
     }
-
-    
-    
 }
-
-
-
-
-
 .whiteness{
     background: #EBEBEB;
-    padding: 90px 50px;
     display: grid;
     grid-template-rows: max-content max-content;
-    z-index: 0;
-
 }
-
 .whiteness_rezult{
     display: grid;
     column-gap: 30px;
     justify-content: center;
-    
 }
 .whiteness_max_white{
     max-width: 1110px;
@@ -114,39 +74,26 @@
 .whiteness_rezult > article{
     display: grid;
     grid-template-rows: max-content 1fr;
-   
-
 }
-
 .whiteness_max_white_text > h2{
 margin-bottom: 20px;
 }
-
 .whiteness_max_white_text > p{
     margin-bottom: 8px;
     }
-
 .whiteness_max_white{
     margin-top: 59px ;
     display: grid;
-   
 }
-
-
 .whiteness_rezult_img{
     width: 100%; 
     height: 100%; 
     object-fit: contain;
     object-position: bottom;
-
 }
-
-
 .whiteness_max_white_img {
     width: 100%; 
     height: 100%; 
     object-fit: contain;
-  
-
 }
 

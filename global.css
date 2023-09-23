@@ -55,6 +55,9 @@ header,  .goods, .brand, .sketch, .banner{
 .whiteless, .brand, data{
     background-color: #EBEBEB;
 }
+footer{
+    background-color: #4C5866;;
+}
 /* logo */
 .logo_ellipse, .logo_rounded_rectangle{
     height: 17px;
