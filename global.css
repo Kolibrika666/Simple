@@ -45,11 +45,11 @@ main{
 body > * {
     max-width:1440px;
 }
-.banner, .whiteless, .goods, .brand, .sketch{
+.banner, .whiteless, .product, .brand, .sketch{
     padding: 11%;
  }
 /*background*/
-header,  .goods, .brand, .sketch, .banner{
+header,  .product, .brand, .sketch, .banner{
     background-color: white;
 }
 .whiteless, .brand, data{
