@@ -25,6 +25,7 @@
     }
     .whiteness_rezult{
         grid-template-columns: repeat(3 , minmax(130px,320px));
+        gap: 30px;
     }
     .whiteness_max_white{
         grid-template-columns: 1fr ;
@@ -46,6 +47,7 @@
     }
     .whiteness_rezult{
         grid-template-columns: repeat(3 , minmax(130px,320px));
+        gap: 30px;
     }
     .whiteness_max_white{
         grid-template-columns: 60% 40% ;
