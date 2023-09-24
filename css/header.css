@@ -46,6 +46,7 @@
         grid-column: 1 / 2;
         grid-template-rows: 1 / 2;
         justify-content: start;
+
     }
     .nav_search{
         justify-content: start;

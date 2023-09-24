@@ -66,10 +66,7 @@
     flex-direction: column;
 }
 .banner_div_text{
-    max-width: 444px;
-}
-.banner_div_img{
-    max-width: 540px;
+    max-width: 445px;
 }
 .banner_img{
     width: 100%;

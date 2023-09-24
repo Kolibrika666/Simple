@@ -20,16 +20,14 @@
     }
 }
 @media (min-width: 760px) {
-    .brands{
+    .brands {
         grid-template-columns:  repeat(4, 1fr);
         grid-template-rows: max-content;
     }
-    .brands > div{
+    .brands > div {
         width: 100%;
     }
 }
-
-
 .brands{
     display: grid;
     gap: 30px;

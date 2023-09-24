@@ -24,7 +24,7 @@
         grid-template-columns: 1fr;
     }
     .whiteness_rezult{
-        grid-template-columns: repeat(3 , minmax(130px,320px));
+        grid-template-columns: repeat(3 , 1fr);
         gap: 30px;
     }
     .whiteness_max_white{
@@ -46,7 +46,7 @@
         grid-template-columns: 1fr 1fr;
     }
     .whiteness_rezult{
-        grid-template-columns: repeat(3 , minmax(130px,320px));
+        grid-template-columns: repeat(3 , 1fr);
         gap: 30px;
     }
     .whiteness_max_white{
@@ -70,7 +70,7 @@
     justify-content: center;
 }
 .whiteness_max_white{
-    max-width: 1110px;
+    max-width: 100%;
     margin: auto;
 }
 .whiteness_rezult > article{

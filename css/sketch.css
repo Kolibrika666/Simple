@@ -1,0 +1,84 @@
+@media (min-width:200px) {
+    .sketch > div{
+        grid-template-columns: 1fr;
+        grid-template-rows: max-content max-content;
+    }
+    .sketch_text{
+        grid-column: 1 / 2 ;
+        grid-row: 2 / 3 ;
+    }
+    
+    .sketch_book > img{
+        width: 100%;
+        position: relative;
+    }
+    .sketch > h3{
+        font-size: 24px;
+        }
+    .sketch > span{
+        font-size: 16px;
+        }
+    }
+@media (min-width:686px) {
+    .sketch > div{
+        grid-template-columns: 300px 1fr;
+        grid-template-rows: max-content;
+    }
+    .sketch_text{
+        grid-column: 1 / 2 ;
+        grid-row: 1 / 2 ;
+    }
+    .sketch_book > img{
+        top: 25%;
+        left: 400px;
+        width: 50%;
+        position: absolute;
+    }
+    .sketch > h3{
+        font-size: 30px;
+        }
+    .sketch > span{
+        font-size: 18px;
+        }
+    }
+@media (min-width:1000px) {
+    .sketch > div{
+        grid-template-columns: 350px 1fr;
+        grid-template-rows: max-content;
+    }
+    .sketch_text {
+        grid-column:1 / 2 ;
+        grid-row: 1 / 2 ;
+    }
+    .sketch_book > img{
+        top: 25%;
+        left: 500px;
+        width: 60%;
+        position: absolute;
+    }
+    .sketch > h3{
+    font-size: 30px;
+    }
+    .sketch > span{
+        font-size: 18px;
+    }
+
+}
+
+.sketch{
+  position: relative;
+  overflow: hidden;
+}
+.sketch > div{
+    display: grid;
+}
+.sketch_text{
+    display: flex;
+    flex-direction: column;
+}
+.sketch_book > img{
+    object-fit: contain;
+}
+.margin-top{
+    margin-top: 30px;
+}
