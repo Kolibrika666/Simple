@@ -45,14 +45,14 @@ main{
 body > * {
     max-width:1440px;
 }
-.banner, .whiteless, .product, .brand, .sketch{
+.banner, .whiteless, .product, .brands, .sketch{
     padding: 11%;
  }
 /*background*/
-header,  .product, .brand, .sketch, .banner{
+header,  .product, .brands, .sketch, .banner{
     background-color: white;
 }
-.whiteless, .brand, data{
+.whiteless, .brands, data{
     background-color: #EBEBEB;
 }
 footer{
@@ -95,7 +95,7 @@ footer{
     border-bottom: 1px solid  #C0C0C0;
 }
 /* text-style */
-button, h3, .logo > span, nav > button {
+button, h3, .logo > span, nav > button, data{
     line-height: normal; 
 }
 h1, nav > button{
@@ -110,6 +110,10 @@ h1, h2{
 h2{
     font-size: 40px;
 }
-h3{
-    font-size: 30px;
+data{
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 3px;
 }

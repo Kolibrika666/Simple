@@ -1,0 +1,23 @@
+
+
+
+
+.brands{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(4,1fr);
+}
+ .brands > article{
+    border: 1px solid #C4C4C4;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    height: 150%;
+} 
+
+.brands_hahnemuehle{
+    background-image: url(img/brands_hahnemuehle);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
