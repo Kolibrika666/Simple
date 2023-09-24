@@ -3,21 +3,18 @@
 
 
 .brands{
-    display: grid;
+    display: flex;
     gap: 30px;
-    grid-template-columns: repeat(4,1fr);
-}
- .brands > article{
-    border: 1px solid #C4C4C4;
-    /* display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center; */
-    height: 150%;
-} 
-
-.brands_hahnemuehle{
-    background-image: url(img/brands_hahnemuehle);
-    background-size: contain;
-    background-repeat: no-repeat;
+}
+ .brands > div{
+    width: 20%;
+    display: inline-block;
+}
+.brands > div > img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
 }

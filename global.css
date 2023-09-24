@@ -45,8 +45,13 @@ main{
 body > * {
     max-width:1440px;
 }
-.banner, .whiteless, .product, .brands, .sketch{
+.banner, .whiteless, .product, .brands, .sketch {
     padding: 11%;
+ }
+
+ footer, header{
+    padding: 0 11%;
+
  }
 /*background*/
 header,  .product, .brands, .sketch, .banner{
