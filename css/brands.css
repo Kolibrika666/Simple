@@ -1,16 +1,41 @@
 
+@media (min-width: 200px) {
+    .brands{
+        grid-template-columns:  repeat(4, 1fr);
+        grid-template-rows: max-content;
+        overflow-x: hidden;
 
+    }
+    .brands > div {
+        width: 150px;
+    }
+}
+@media (min-width: 400px) {
+    .brands{
+        grid-template-columns:  repeat(2, 1fr);
+        grid-template-rows:repeat(2, 1fr);
+    }
+    .brands > div{
+        width: 100%;
+    }
+}
+@media (min-width: 760px) {
+    .brands{
+        grid-template-columns:  repeat(4, 1fr);
+        grid-template-rows: max-content;
+    }
+    .brands > div{
+        width: 100%;
+    }
+}
 
 
 .brands{
-    display: flex;
+    display: grid;
     gap: 30px;
-    flex-direction: row;
-    flex-wrap: wrap;
     justify-content: center;
 }
  .brands > div{
-    width: 20%;
     display: inline-block;
 }
 .brands > div > img{
