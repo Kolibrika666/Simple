@@ -75,7 +75,7 @@
     }
 }
 
-@media (min-width:1160px) {
+@media (min-width:1288px) {
     header{
         grid-template-columns: 1fr 2fr 1fr;
         grid-template-rows: 1fr max-content;
